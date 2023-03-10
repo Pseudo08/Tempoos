@@ -18,12 +18,14 @@ const AboutPage = () => {
         <Typography variant="h2" align="center" gutterBottom>
           Who We Are
         </Typography>
-        <Typography variant="body1" align="center" paragraph>
+        <div style={{textAlign: 'center', display:'flex', justifyContent:'center' }}>
+        <Typography variant="body1" paragraph style={{width: '80%'}}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus et elit
           ullamcorper commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus et elit
           ullamcorper commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus et elit
           ullamcorper commodo.
         </Typography>
+        </div>
       </Container>
       <Typography variant="h4" align="center" gutterBottom sx={{marginTop: '2rem'}}>
           Our Story
@@ -33,7 +35,7 @@ const AboutPage = () => {
           <img src="./assets/logo.jpeg" style={{width: "60%"}}></img>
         </Grid>
         <Grid xs={5}>
-        <Typography variant="subtitle1" gutterBottom>How it Started</Typography>
+        <Typography variant="subtitle1" style={{fontSize:'1.5rem', fontWeight: 200}} gutterBottom>How it Started</Typography>
         <Typography variant="body1" align="center" paragraph>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus et elit
           ullamcorper commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus et elit
@@ -42,7 +44,7 @@ const AboutPage = () => {
         </Typography>
         </Grid>
         <Grid xs={5}>
-        <Typography variant="subtitle1" gutterBottom>Where we are at now</Typography>
+        <Typography variant="subtitle1"  style={{fontSize:'1.5rem', fontWeight: 200}} gutterBottom>Where we are at now</Typography>
         <Typography variant="body1" align="center" paragraph>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus et elit
           ullamcorper commodo.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod lectus et elit

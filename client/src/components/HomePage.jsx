@@ -13,7 +13,8 @@ import { Menu as MenuIcon } from '@mui/icons-material';
 function HomePage() {
   return (
     <>
-    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'}}>
+    <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'center'
+}}>
     <img src="./assets/back.jpeg"   style={{ marginTop: '2rem',  width: "90%", alignSelf: "center", borderRadius: "10px" }}></img>
       <Container  maxWidth="md" style={{ marginTop: '2rem' }}>
         

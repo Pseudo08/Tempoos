@@ -12,9 +12,9 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 const Navbar = ()=> {
   return (
     <AppBar position="static" color="transparent">
-        <Toolbar sx={{display: 'flex', justifyContent: 'space-between'}}>
+        <Toolbar sx={{display: 'flex', justifyContent: 'space-between',backgroundColor:'#f5f5f5' }}>
           {/* <IconButton edge="start" color="inherit"> */}
-          <div>
+          <div >
           <img src="./assets/logo.jpeg" style={{width: "50px", borderRadius: "50%"}}></img>
           </div>
           {/* </IconButton> */}
@@ -26,6 +26,9 @@ const Navbar = ()=> {
           <div>
           <Button color="inherit" component={Link} to="/">
             Home
+          </Button>
+          <Button color="inherit" component={Link} to="/products">
+            Products
           </Button>
           <Button color="inherit" component={Link} to="/about">
             About
